@@ -1,0 +1,93 @@
+[
+    {
+        "id": 1,
+        "title": "Sugus",
+        "description": "caramelos",
+        "price": 20,
+        "thumbnail": "sugus.jpeg",
+        "code":"",
+        "stock": 210
+    },
+    {
+        "id": 2,
+        "title":  "Palito de la selva",
+        "description": "caramelos",
+        "price": 50,
+        "thumbnail": "palitos-de-la-selva.jpeg",
+        "code":"",
+        "stock": 210
+    },
+    {
+        "id": 3,
+        "title":  "Palito de la selva",
+        "description": "caramelos",
+        "price": 50,
+        "thumbnail": "palitos-de-la-selva.jpeg",
+        "code":"",
+        "stock": 210
+    },
+    {
+        "id": 4,
+        "title":  "Palito de la selva",
+        "description": "caramelos",
+        "price": 50,
+        "thumbnail": "palitos-de-la-selva.jpeg",
+        "code":"",
+        "stock": 210
+    },
+    {
+        "id": 5,
+        "title":  "Palito de la selva",
+        "description": "caramelos",
+        "price": 50,
+        "thumbnail": "palitos-de-la-selva.jpeg",
+        "code":"",
+        "stock": 210
+    },
+    {
+        "id": 6,
+        "title":  "Palito de la selva",
+        "description": "caramelos",
+        "price": 50,
+        "thumbnail": "palitos-de-la-selva.jpeg",
+        "code":"",
+        "stock": 210
+    },
+    {
+        "id": 7,
+        "title":  "Palito de la selva",
+        "description": "caramelos",
+        "price": 50,
+        "thumbnail": "palitos-de-la-selva.jpeg",
+        "code":"",
+        "stock": 210
+    },
+    {
+        "id": 8,
+        "title":  "Palito de la selva",
+        "description": "caramelos",
+        "price": 50,
+        "thumbnail": "palitos-de-la-selva.jpeg",
+        "code":"",
+        "stock": 210
+    },
+    {
+        "id": 9,
+        "title":  "Palito de la selva",
+        "description": "caramelos",
+        "price": 50,
+        "thumbnail": "palitos-de-la-selva.jpeg",
+        "code":"",
+        "stock": 210
+    },
+    {
+        "id": 10,
+        "title":  "Palito de la selva",
+        "description": "caramelos",
+        "price": 50,
+        "thumbnail": "palitos-de-la-selva.jpeg",
+        "code":"",
+        "stock": 210
+    }
+    
+]
