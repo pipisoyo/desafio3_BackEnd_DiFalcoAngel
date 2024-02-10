@@ -81,7 +81,7 @@ export class ProductManager {
             return product;
         } else {
             return { error: "El producto no existe" , statusCode: 404 };// si no se encuetra retorna error 
-        }
+        }                                                               // combierto en objeto y tmb envio un codigo de error
     }
 
     updateProduct(id, newProductData) {
