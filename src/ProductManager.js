@@ -4,7 +4,7 @@ export class ProductManager {
     constructor() {
         this.products = [];
         this.idCounter = 0;// agrego variable , cada vez q se genera un id se incrementa en 1 , ademas se verifica el ultimo id
-        this.PATH = './products.json';
+        this.PATH = '../products.json';
 
 
     }
@@ -80,7 +80,7 @@ export class ProductManager {
         if (product) {
             return product;
         } else {
-            return "Not Found";// si no se encuetra retorna error 
+            return { error: "El producto no existe" , statusCode: 404 };// si no se encuetra retorna error 
         }
     }
 
@@ -124,69 +124,3 @@ export class ProductManager {
 }
 
 
-/* Class Product {// Creo la clase  product (se contendra dentro de products)
-    constructor(id, title, description, price, thumbnail, code, stock) {
-        this.id = id;
-        this.title = title;
-        this.description = description;
-        this.price = price;
-        this.thumbnail = thumbnail;
-        this.code = code;
-        this.stock = stock;
-    }
-} */
-
-/* const productManager = new ProductManager();// defino productManager
-
-//TESTING
-
-
-(async () => {
-    console.log("1🚀 Productos: ", await productManager.getProducts());
-
-    await productManager.addProduct({
-        title: "producto prueba 1",
-        description: "Este es un producto de prueba",
-        price: 200,
-        thumbnail: "Sin imagen",
-        code: "abc123",
-        stock: 25
-    });
-    await productManager.addProduct({
-        title: "producto prueba 4",
-        description: "Este es un producto de prueba",
-        price: 200,
-        thumbnail: "Sin imagen",
-        code: "abc124",
-        stock: 25
-    });
-
-    console.log("2🚀 Productos: ", await productManager.getProducts());
-
-    await productManager.addProduct({
-        title: "producto prueba 2",
-        description: "Este es un producto de prueba",
-        price: 200,
-        thumbnail: "Sin imagen",
-        code: "abc124",
-        stock: 25
-    });
-    await productManager.addProduct({
-        title: "producto prueba 3",
-        description: "Este es un producto de prueba",
-        price: 200,
-        thumbnail: "Sin imagen",
-        code: "abc123",
-        stock: 25
-    });
-
-    console.log("3🚀Resultado de búsqueda por ID:", productManager.getProductById(1));
-    console.log("4🚀Resultado de búsqueda por ID:", productManager.getProductById(3));
-
-    productManager.updateProduct(1, { stock: 6 });
-    console.log("5🚀Resultado de búsqueda por ID:", productManager.getProductById(1));
-
-    await productManager.deleteProduct(1);
-    await productManager.deleteProduct(1);
-})();
- */

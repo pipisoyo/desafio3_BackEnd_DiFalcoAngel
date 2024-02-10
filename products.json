@@ -19,75 +19,75 @@
     },
     {
         "id": 3,
-        "title":  "Palito de la selva",
+        "title":  "Billiken",
         "description": "caramelos",
-        "price": 50,
-        "thumbnail": "palitos-de-la-selva.jpeg",
+        "price": 23,
+        "thumbnail": "billiken.jpeg",
         "code":"",
         "stock": 210
     },
     {
         "id": 4,
-        "title":  "Palito de la selva",
-        "description": "caramelos",
-        "price": 50,
-        "thumbnail": "palitos-de-la-selva.jpeg",
+        "title":  "Block",
+        "description": "Chocolates",
+        "price": 250,
+        "thumbnail": "block.jpg",
         "code":"",
-        "stock": 210
+        "stock": 10
     },
     {
         "id": 5,
-        "title":  "Palito de la selva",
-        "description": "caramelos",
-        "price": 50,
-        "thumbnail": "palitos-de-la-selva.jpeg",
+        "title":  "Milka",
+        "description": "Chocolates",
+        "price": 500,
+        "thumbnail": "milka.jpg",
         "code":"",
-        "stock": 210
+        "stock": 7
     },
     {
         "id": 6,
-        "title":  "Palito de la selva",
-        "description": "caramelos",
-        "price": 50,
-        "thumbnail": "palitos-de-la-selva.jpeg",
+        "title":  "Toke",
+        "description": "Chocolates",
+        "price": 350,
+        "thumbnail": "toke.jpeg",
         "code":"",
-        "stock": 210
+        "stock": 15
     },
     {
         "id": 7,
-        "title":  "Palito de la selva",
-        "description": "caramelos",
-        "price": 50,
-        "thumbnail": "palitos-de-la-selva.jpeg",
+        "title":  "Cargador",
+        "description": "Electronica",
+        "price": 1000,
+        "thumbnail": "cargador.jpg",
         "code":"",
-        "stock": 210
+        "stock": 6
     },
     {
         "id": 8,
-        "title":  "Palito de la selva",
-        "description": "caramelos",
-        "price": 50,
-        "thumbnail": "palitos-de-la-selva.jpeg",
+        "title":  "Cable Usb",
+        "description": "Electronica",
+        "price": 320,
+        "thumbnail": "cable-usb.jpeg",
         "code":"",
-        "stock": 210
+        "stock": 20
     },
     {
         "id": 9,
-        "title":  "Palito de la selva",
-        "description": "caramelos",
-        "price": 50,
-        "thumbnail": "palitos-de-la-selva.jpeg",
+        "title":  "Memoria Micro SD 32gb",
+        "description": "Electronica",
+        "price": 730,
+        "thumbnail": "memoria.jpg",
         "code":"",
-        "stock": 210
+        "stock": 5
     },
     {
         "id": 10,
-        "title":  "Palito de la selva",
-        "description": "caramelos",
-        "price": 50,
-        "thumbnail": "palitos-de-la-selva.jpeg",
+        "title":  "Divercion",
+        "description": "Galletitas",
+        "price": 500,
+        "thumbnail": "divercion.jpg",
         "code":"",
-        "stock": 210
+        "stock": 87
     }
     
 ]
